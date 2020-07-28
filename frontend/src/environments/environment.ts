@@ -11,7 +11,7 @@ export const environment = {
     projectId: 'socialspace-d1591',
     storageBucket: 'socialspace-d1591.appspot.com',
     messagingSenderId: '763399536402'
-}
+  }
 };
 
 /*

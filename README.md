@@ -33,6 +33,23 @@ $ npm install
 $ npm start
 ```
 
+#### Installation - Backend
+
+You need to install: 
+* Python 3.8
+* Flask
+* NumPy
+* OpenCV - If you don’t have OpenCV installed, you’ll want to [install](https://www.pyimagesearch.com/opencv-tutorials-resources-guides/) OpenCV and follow the relevant tutorial for your particular operating system.
+* dlib - If you need to install dlib, you can [use this guide](https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/).
+* imutils - you can install/upgrade your [imutils](https://github.com/jrosebr1/imutils).
+
+Finally, you can start the dev server.
+
+```sh
+$ cd backend
+$ npm python people_counter.py 
+```
+
 License
 ----
 

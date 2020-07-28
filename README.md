@@ -1,6 +1,7 @@
 # SSA- Social Space Analysis
 
 This web-app allows you to monitor number of people to be accomodated at a place in real time.
+[See Demo](https://karangupta-dev.github.io/SSA/#/dashboard)
 
 This repo contains two directories: 
 * [backend] - developed in Python

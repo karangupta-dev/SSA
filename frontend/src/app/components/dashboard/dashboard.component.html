@@ -32,7 +32,7 @@
                 <span class="mr-2 h1 font-weight-bold">Current Count: {{count.counter}}</span>
                 <i class="ni ni-single-02 text-nowrap people-icon"></i>
                 <br>
-                <span class="mr-2 h3 font-weight-bold" [ngClass]="count.maxLimit >= count.counter ? 'text-success' : 'text-danger'" >{{count.counter > count.maxLimit ?  "OVER CAPACITY" : "UNDER CAPACITY"}}</span>
+                <span class="mr-2 h3 font-weight-bold" [ngClass]="count.maxLimit > count.counter ? 'text-success' : 'text-danger'" >{{count.counter >= count.maxLimit ?  "OVER CAPACITY" : "UNDER CAPACITY"}}</span>
               </p>
            
             </div>

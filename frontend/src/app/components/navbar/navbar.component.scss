@@ -61,17 +61,8 @@ a:hover{
   .location{
    display: none;
   }
-  .location2{
-    display: block;
-    margin-left: 1em;
-    margin-top: -1.7em;
-  }
 }
-@media (min-width: 720px){
-  .location2{
-    display: none;
-  }
-}
+
 @media (max-width: 952px){
   label.logo{
     font-size: 18px;

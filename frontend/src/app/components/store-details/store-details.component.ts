@@ -95,8 +95,8 @@ export class StoreDetailComponent implements OnInit {
   private getReducedValue(index, specificStore) {
     let size = specificStore.length;
     return specificStore.reduce((accumulator, currentValue, currentIndex, array) => {
-      return (accumulator + parseInt(array[currentIndex][index])) / size;
-    }, 0);
+      return (accumulator[index] + parseInt(array[currentIndex][index])) / size;
+    });
   }
 
   public updateOptions() {

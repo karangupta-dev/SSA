@@ -8,8 +8,8 @@
           </h1>
           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a tortor vehicula, <br>
             scelerisque sem non, varius urna. Proin imperdiet bibendum facilisis.</p> -->
-            <p>Get to know the density before entering any store in a glimpse , also accurately <br>
-              measure & get weekly analysis of the density in your workplace.</p>
+            <p class="wrap">Get to know the density before entering any store in a glimpse ,
+              also accurately measure & get weekly analysis of the density in your workplace.</p>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
                 <span class="mr-2 h1 font-weight-bold">Current Count: {{count.counter}}</span>
                 <i class="ni ni-single-02 text-nowrap people-icon"></i>
                 <br>
-                <span class="mr-2 h3 font-weight-bold" [ngClass]="count.maxLimit > count.counter ? 'text-success' : 'text-danger'" >{{count.counter > count.maxLimit ?  "OVER CAPACITY" : "UNDER CAPACITY"}}</span>
+                <span class="mr-2 h3 font-weight-bold" [ngClass]="count.maxLimit >= count.counter ? 'text-success' : 'text-danger'" >{{count.counter > count.maxLimit ?  "OVER CAPACITY" : "UNDER CAPACITY"}}</span>
               </p>
            
             </div>

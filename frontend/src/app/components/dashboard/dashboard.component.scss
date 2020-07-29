@@ -11,7 +11,7 @@ background:#eeeeee !important;
 height: 45vh;
 }
 .banner{
-    font-size: 40px;
+    font-size: 38px;
 }
 .cards-row{
     border: 0px solid;
@@ -34,12 +34,17 @@ height: 45vh;
 .card-text{
     color: #f5365c;
 }
-
+@media (max-width: 720px){
+    .wrap{
+     width: 20em;
+    }
+  }
 @media (max-width: 450px){
     .header-body{
         padding-top: 38px;
     }
     .banner{
       font-size: 35px;
+      margin-top:0.5em
     }
   }

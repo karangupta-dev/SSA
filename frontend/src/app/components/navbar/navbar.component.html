@@ -1,18 +1,16 @@
 <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
 
-<nav>
-  <input type="checkbox" id="check">
-  <label for="check" class="checkbtn">
-    <i class="fas fa-bars"></i>
-  </label>
-  <label class="logo text-uppercase" routerLinkActive="active" [routerLink]="['/dashboard']">{{title}}</label>
-  <ul>
-<li><a class="active" href="">Home</a></li>
-<li><a href="#/admin">Admin</a></li>
-<!-- <li><a href="#">Services</a></li>
-<li><a href="#">Contact</a></li>
-<li><a href="#">Feedback</a></li> -->
-</ul>
-</nav>
-  
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo text-uppercase" routerLinkActive="active" [routerLink]="['/dashboard']">{{title}}</label>
+    <span class="location"><i class="fa fa-map-marker"></i>New Delhi</span>
+    <ul>
+      <li><a class="active" href="">Home</a></li>
+      <li><a href="#/admin">Admin</a></li>
+    </ul>
+  </nav>
+  <span class="location2"><i class="fa fa-map-marker"></i>New Delhi</span>
 </nav>

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule, } from '@angular/common';
-import { BrowserModule  } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 
@@ -10,7 +10,7 @@ import { StoreDetailComponent } from './components/store-details/store-details.c
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 
-const routes: Routes =[
+const routes: Routes = [
   {
     path: '',
     redirectTo: 'dashboard',
@@ -35,21 +35,19 @@ const routes: Routes =[
   //     }
   //   ]
   // },
-  { path: 'dashboard',      component: DashboardComponent },
-  { path: 'admin',   component: UserProfileComponent },
-  { path: 'details',   component: StoreDetailComponent },
-  { path: 'login',          component: LoginComponent },
-  { path: 'register',       component: RegisterComponent }, {
-    path: '**',
-    redirectTo: 'dashboard'
-  }
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'admin', component: UserProfileComponent },
+  { path: 'details', component: StoreDetailComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: '**',   redirectTo: 'dashboard'   }
 ];
 
 @NgModule({
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule.forRoot(routes,{
+    RouterModule.forRoot(routes, {
       useHash: true
     })
   ],

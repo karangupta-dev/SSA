@@ -54,7 +54,7 @@ export class StoreDetailComponent implements OnInit {
         options: chartExample2.options,
         // data: chartExample2.data
         data:    {
-          labels: ["9pm", "12pm", "3pm", "6pm"],
+          labels: ["9am", "12pm", "3pm", "6pm"],
           datasets: [
             {
               label: "Weekly Statistics",

@@ -1,9 +1,20 @@
 .fa-map-marker{
     margin-right:0.5em;
 }
+
+.footer .nav .nav-item .nav-link, .footer .footer-link {
+  color: #32325d !important;
+}
+
+.footer{
+  background: #eeeeee !important;
+  padding: 30px;
+}
 @media (max-width: 720px){
     .location2{
       display: block;
+      color: #32325d !important;
+      font-weight: bold;
     }
   }
   
